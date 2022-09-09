@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+.logo {
+    width: 100%;
+    float: left;
+}
+
+.logoImg {
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit
+}
+
+.title {
+    float: inherit;
+    margin-left: 20%;
+    
+}
+
+.lado-izquierdo {
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+
+.text-input {
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+}
+
+.lado-derecho {
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+}
+
+#imgDer {
+    margin-top: 20%;
+    margin-left: 2%;
+    width: 90%;
+    height: auto;
+}
+
+#texto {
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+#texto2 {
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#btn-encriptar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    background: #0A3871;
+}
+
+#btn-desencriptar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    background: #D8DFE8;
+}
+
+#btn-desencriptar:hover {
+    background: #0A3871;
+}
+
+.boton-izquierdo {
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+
+
+#copiar {
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 5px;
+    display: none;
+}
